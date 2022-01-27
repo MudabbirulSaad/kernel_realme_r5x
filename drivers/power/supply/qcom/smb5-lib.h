@@ -102,14 +102,8 @@ enum print_reason {
 
 #define SDP_100_MA			100000
 #define SDP_CURRENT_UA			500000
-#define CDP_CURRENT_UA			1500000
-#ifndef CONFIG_PRODUCT_REALME_TRINKET
-// wenbin.liu@BSP.CHG.Basic, 2017/11/27 
-// Delete for oppo dcp 2A 
-#define DCP_CURRENT_UA                  1500000
-#else
-#define DCP_CURRENT_UA                  2000000
-#endif
+#define CDP_CURRENT_UA			2200000
+#define DCP_CURRENT_UA                  2400000
 
 #define HVDCP_CURRENT_UA		3000000
 #define TYPEC_DEFAULT_CURRENT_UA	900000
